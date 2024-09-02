@@ -1,0 +1,653 @@
+$comment
+	File created using the following command:
+		vcd file KS.msim.vcd -direction
+$end
+$date
+	Tue Nov 07 12:50:16 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Counter_55_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 1 " EN $end
+$var reg 3 # MODE [2:0] $end
+$var reg 1 $ RST $end
+$var reg 1 % START $end
+$var wire 1 & COUT $end
+$var wire 1 ' CQ [7] $end
+$var wire 1 ( CQ [6] $end
+$var wire 1 ) CQ [5] $end
+$var wire 1 * CQ [4] $end
+$var wire 1 + CQ [3] $end
+$var wire 1 , CQ [2] $end
+$var wire 1 - CQ [1] $end
+$var wire 1 . CQ [0] $end
+$var wire 1 / sampler $end
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 7 START~input_o $end
+$var wire 1 8 MODE[2]~input_o $end
+$var wire 1 9 RST~input_o $end
+$var wire 1 : MODE[0]~input_o $end
+$var wire 1 ; MODE[1]~input_o $end
+$var wire 1 < Mux6~0_combout $end
+$var wire 1 = C~combout $end
+$var wire 1 > CQI[0]~45_combout $end
+$var wire 1 ? CLK~input_o $end
+$var wire 1 @ CLK~inputCLKENA0_outclk $end
+$var wire 1 A EN~input_o $end
+$var wire 1 B Mux5~0_combout $end
+$var wire 1 C CQI[0]~1_combout $end
+$var wire 1 D CQI[0]~3_combout $end
+$var wire 1 E CQI[0]~_emulated_q $end
+$var wire 1 F CQI[0]~2_combout $end
+$var wire 1 G CQ[0]$latch~combout $end
+$var wire 1 H Mux4~0_combout $end
+$var wire 1 I CQI[1]~5_combout $end
+$var wire 1 J Mux3~0_combout $end
+$var wire 1 K CQI[2]~9_combout $end
+$var wire 1 L CQI~48_combout $end
+$var wire 1 M CQI~49_combout $end
+$var wire 1 N CQI[2]~11_combout $end
+$var wire 1 O CQI[2]~_emulated_q $end
+$var wire 1 P CQI[2]~10_combout $end
+$var wire 1 Q CQI~34_combout $end
+$var wire 1 R CQI~38_combout $end
+$var wire 1 S CQI~47_combout $end
+$var wire 1 T CQI~46_combout $end
+$var wire 1 U CQI[1]~7_combout $end
+$var wire 1 V CQI[1]~_emulated_q $end
+$var wire 1 W CQI[1]~6_combout $end
+$var wire 1 X CQ[1]$latch~combout $end
+$var wire 1 Y CQ[2]$latch~combout $end
+$var wire 1 Z CQ[3]$latch~combout $end
+$var wire 1 [ Mux2~0_combout $end
+$var wire 1 \ CQI[4]~13_combout $end
+$var wire 1 ] COUT~0_combout $end
+$var wire 1 ^ CQI[4]~15_combout $end
+$var wire 1 _ CQI[4]~_emulated_q $end
+$var wire 1 ` CQI[4]~14_combout $end
+$var wire 1 a CQ[4]$latch~combout $end
+$var wire 1 b Mux1~0_combout $end
+$var wire 1 c CQI[5]~17_combout $end
+$var wire 1 d CQI[5]~19_combout $end
+$var wire 1 e CQI[5]~_emulated_q $end
+$var wire 1 f CQI[5]~18_combout $end
+$var wire 1 g CQ[5]$latch~combout $end
+$var wire 1 h Mux0~0_combout $end
+$var wire 1 i CQI[6]~21_combout $end
+$var wire 1 j COUT~1_combout $end
+$var wire 1 k CQI[6]~23_combout $end
+$var wire 1 l CQI[6]~_emulated_q $end
+$var wire 1 m CQI[6]~22_combout $end
+$var wire 1 n CQ[6]$latch~combout $end
+$var wire 1 o CQI~39_combout $end
+$var wire 1 p CQ[7]$latch~combout $end
+$var wire 1 q COUT~reg0feeder_combout $end
+$var wire 1 r CQI~40_combout $end
+$var wire 1 s temp[0]~0_combout $end
+$var wire 1 t CQI~44_combout $end
+$var wire 1 u CQI~42_combout $end
+$var wire 1 v CQI~43_combout $end
+$var wire 1 w CQI~41_combout $end
+$var wire 1 x COUT~2_combout $end
+$var wire 1 y COUT~3_combout $end
+$var wire 1 z COUT~4_combout $end
+$var wire 1 { COUT~reg0_q $end
+$var wire 1 | CQI [7] $end
+$var wire 1 } CQI [6] $end
+$var wire 1 ~ CQI [5] $end
+$var wire 1 !! CQI [4] $end
+$var wire 1 "! CQI [3] $end
+$var wire 1 #! CQI [2] $end
+$var wire 1 $! CQI [1] $end
+$var wire 1 %! CQI [0] $end
+$var wire 1 &! temp [7] $end
+$var wire 1 '! temp [6] $end
+$var wire 1 (! temp [5] $end
+$var wire 1 )! temp [4] $end
+$var wire 1 *! temp [3] $end
+$var wire 1 +! temp [2] $end
+$var wire 1 ,! temp [1] $end
+$var wire 1 -! temp [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+b0 #
+0$
+1%
+1&
+1.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+x/
+00
+11
+x2
+13
+14
+15
+06
+17
+08
+09
+0:
+0;
+1<
+1=
+0>
+0?
+0@
+0A
+0B
+1C
+0D
+0E
+1F
+1G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+1j
+0k
+0l
+0m
+0n
+0o
+0p
+1q
+0r
+1s
+0t
+0u
+0v
+0w
+1x
+1y
+0z
+0{
+z%!
+z$!
+z#!
+0"!
+z!!
+z~
+z}
+0|
+z-!
+0,!
+0+!
+0*!
+0)!
+0(!
+0'!
+0&!
+$end
+#30000
+1!
+1?
+1@
+0/
+1{
+0&
+#50000
+b100 #
+18
+1/
+0<
+1J
+1[
+1h
+#60000
+b110 #
+0!
+1;
+0?
+0@
+0/
+1B
+0J
+0[
+0h
+#80000
+b111 #
+1:
+1/
+#90000
+1!
+1?
+1@
+0/
+#100000
+b11 #
+08
+1/
+0B
+1b
+#120000
+b1 #
+0!
+0;
+0?
+0@
+0/
+1J
+0b
+#150000
+b101 #
+1!
+18
+1?
+1@
+1/
+1B
+0J
+1b
+1h
+#160000
+b100 #
+0:
+0/
+0B
+1J
+1[
+0b
+#180000
+b110 #
+0!
+1;
+0?
+0@
+1/
+1B
+0J
+0[
+0h
+#200000
+b10 #
+08
+0/
+1H
+1J
+1[
+#210000
+1!
+1?
+1@
+1/
+#240000
+b11 #
+b1 #
+0!
+1:
+0;
+0?
+0@
+0/
+0B
+0H
+0[
+#250000
+b101 #
+18
+1/
+1B
+0J
+1b
+1h
+#270000
+1!
+1?
+1@
+0/
+#300000
+b111 #
+b11 #
+0!
+1;
+08
+0?
+0@
+1/
+0B
+0h
+#320000
+b10 #
+0:
+0/
+1B
+1H
+1J
+1[
+0b
+#330000
+1!
+1?
+1@
+1/
+#350000
+b110 #
+18
+0/
+0H
+0J
+0[
+#360000
+b100 #
+0!
+0;
+0?
+0@
+1/
+0B
+1J
+1[
+1h
+#390000
+1!
+1?
+1@
+0/
+#400000
+b101 #
+b1 #
+1:
+08
+1/
+0[
+0h
+#420000
+b11 #
+0!
+1;
+0?
+0@
+0/
+0J
+1b
+#450000
+b111 #
+1!
+18
+1?
+1@
+1/
+1B
+0b
+#480000
+b110 #
+b100 #
+0!
+0:
+0;
+0?
+0@
+0/
+0B
+1J
+1[
+1h
+#500000
+b0 #
+08
+1/
+1<
+0J
+0[
+0h
+#510000
+1!
+1?
+1@
+0/
+#540000
+b10 #
+0!
+1;
+0?
+0@
+1/
+0<
+1B
+1H
+1J
+1[
+#550000
+b110 #
+18
+0/
+0H
+0J
+0[
+#560000
+b111 #
+1:
+1/
+#570000
+1!
+1?
+1@
+0/
+#600000
+b101 #
+b1 #
+0!
+0;
+08
+0?
+0@
+1/
+0B
+1J
+#630000
+1!
+1?
+1@
+0/
+#640000
+b0 #
+0:
+1/
+1<
+0J
+#650000
+b100 #
+18
+0/
+0<
+1J
+1[
+1h
+#660000
+b110 #
+0!
+1;
+0?
+0@
+1/
+1B
+0J
+0[
+0h
+#690000
+1!
+1?
+1@
+0/
+#700000
+b10 #
+08
+1/
+1H
+1J
+1[
+#720000
+b11 #
+b1 #
+0!
+1:
+0;
+0?
+0@
+0/
+0B
+0H
+0[
+#750000
+b101 #
+1!
+18
+1?
+1@
+1/
+1B
+0J
+1b
+1h
+#780000
+b111 #
+0!
+1;
+0?
+0@
+0/
+0b
+0h
+#800000
+b110 #
+b10 #
+0:
+08
+1/
+1H
+1J
+1[
+#810000
+1!
+1?
+1@
+0/
+#840000
+b0 #
+0!
+0;
+0?
+0@
+1/
+1<
+0B
+0H
+0J
+0[
+#850000
+b100 #
+18
+0/
+0<
+1J
+1[
+1h
+#870000
+1!
+1?
+1@
+1/
+#880000
+b101 #
+1:
+0/
+1B
+0J
+0[
+1b
+#900000
+b111 #
+b11 #
+0!
+1;
+08
+0?
+0@
+1/
+0B
+0h
+#930000
+1!
+1?
+1@
+0/
+#950000
+b111 #
+18
+1/
+1B
+0b
+#960000
+b110 #
+b100 #
+0!
+0:
+0;
+0?
+0@
+0/
+0B
+1J
+1[
+1h
+#990000
+1!
+1?
+1@
+1/
+#1000000

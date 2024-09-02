@@ -1,0 +1,437 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'Counter_55:C1|COUT'
+Slack : -10.953
+TNS   : -91.798
+
+Type  : Slow 1100mV 85C Model Setup 'Counter_55:C2|COUT'
+Slack : -10.683
+TNS   : -91.625
+
+Type  : Slow 1100mV 85C Model Setup 'Light_Events:inst|CTRL0'
+Slack : -7.882
+TNS   : -15.647
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -4.358
+TNS   : -120.140
+
+Type  : Slow 1100mV 85C Model Setup 'START'
+Slack : -4.052
+TNS   : -40.180
+
+Type  : Slow 1100mV 85C Model Setup 'RST'
+Slack : 0.761
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'START'
+Slack : -3.544
+TNS   : -74.707
+
+Type  : Slow 1100mV 85C Model Hold 'RST'
+Slack : -2.487
+TNS   : -2.487
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : -1.758
+TNS   : -46.760
+
+Type  : Slow 1100mV 85C Model Hold 'Counter_55:C2|COUT'
+Slack : -0.581
+TNS   : -0.595
+
+Type  : Slow 1100mV 85C Model Hold 'Counter_55:C1|COUT'
+Slack : -0.325
+TNS   : -0.945
+
+Type  : Slow 1100mV 85C Model Hold 'Light_Events:inst|CTRL0'
+Slack : 4.298
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'Counter_55:C1|COUT'
+Slack : -9.610
+TNS   : -64.983
+
+Type  : Slow 1100mV 85C Model Recovery 'Counter_55:C2|COUT'
+Slack : -9.431
+TNS   : -63.831
+
+Type  : Slow 1100mV 85C Model Recovery 'CLK'
+Slack : -4.888
+TNS   : -43.214
+
+Type  : Slow 1100mV 85C Model Recovery 'RST'
+Slack : -0.882
+TNS   : -0.882
+
+Type  : Slow 1100mV 85C Model Removal 'CLK'
+Slack : -2.411
+TNS   : -38.429
+
+Type  : Slow 1100mV 85C Model Removal 'RST'
+Slack : -0.964
+TNS   : -0.964
+
+Type  : Slow 1100mV 85C Model Removal 'Counter_55:C1|COUT'
+Slack : -0.085
+TNS   : -0.085
+
+Type  : Slow 1100mV 85C Model Removal 'Counter_55:C2|COUT'
+Slack : 0.915
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.538
+TNS   : -26.895
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_55:C2|COUT'
+Slack : -0.538
+TNS   : -5.636
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_55:C1|COUT'
+Slack : -0.538
+TNS   : -5.543
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'D_CTR'
+Slack : -0.538
+TNS   : -1.757
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'START'
+Slack : -0.017
+TNS   : -0.074
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'RST'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Light_Events:inst|CTRL0'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_55:C1|COUT'
+Slack : -10.968
+TNS   : -91.849
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_55:C2|COUT'
+Slack : -10.662
+TNS   : -91.396
+
+Type  : Slow 1100mV 0C Model Setup 'Light_Events:inst|CTRL0'
+Slack : -7.899
+TNS   : -15.623
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -4.347
+TNS   : -119.131
+
+Type  : Slow 1100mV 0C Model Setup 'START'
+Slack : -4.121
+TNS   : -40.580
+
+Type  : Slow 1100mV 0C Model Setup 'RST'
+Slack : 0.657
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'START'
+Slack : -3.619
+TNS   : -74.502
+
+Type  : Slow 1100mV 0C Model Hold 'RST'
+Slack : -2.504
+TNS   : -2.504
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : -1.752
+TNS   : -46.268
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_55:C2|COUT'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_55:C1|COUT'
+Slack : -0.451
+TNS   : -1.485
+
+Type  : Slow 1100mV 0C Model Hold 'Light_Events:inst|CTRL0'
+Slack : 4.241
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'Counter_55:C1|COUT'
+Slack : -9.537
+TNS   : -64.656
+
+Type  : Slow 1100mV 0C Model Recovery 'Counter_55:C2|COUT'
+Slack : -9.400
+TNS   : -63.606
+
+Type  : Slow 1100mV 0C Model Recovery 'CLK'
+Slack : -5.038
+TNS   : -41.149
+
+Type  : Slow 1100mV 0C Model Recovery 'RST'
+Slack : -1.008
+TNS   : -1.008
+
+Type  : Slow 1100mV 0C Model Removal 'CLK'
+Slack : -2.417
+TNS   : -38.774
+
+Type  : Slow 1100mV 0C Model Removal 'RST'
+Slack : -0.986
+TNS   : -0.986
+
+Type  : Slow 1100mV 0C Model Removal 'Counter_55:C1|COUT'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Slow 1100mV 0C Model Removal 'Counter_55:C2|COUT'
+Slack : 0.960
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.538
+TNS   : -28.176
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_55:C1|COUT'
+Slack : -0.538
+TNS   : -5.603
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_55:C2|COUT'
+Slack : -0.538
+TNS   : -5.494
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'D_CTR'
+Slack : -0.538
+TNS   : -1.554
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'START'
+Slack : -0.085
+TNS   : -0.547
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'RST'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Light_Events:inst|CTRL0'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_55:C1|COUT'
+Slack : -5.198
+TNS   : -43.204
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_55:C2|COUT'
+Slack : -5.070
+TNS   : -42.564
+
+Type  : Fast 1100mV 85C Model Setup 'Light_Events:inst|CTRL0'
+Slack : -3.398
+TNS   : -6.731
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -1.809
+TNS   : -45.305
+
+Type  : Fast 1100mV 85C Model Setup 'START'
+Slack : -1.502
+TNS   : -11.075
+
+Type  : Fast 1100mV 85C Model Setup 'RST'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'START'
+Slack : -2.173
+TNS   : -49.111
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : -1.457
+TNS   : -39.475
+
+Type  : Fast 1100mV 85C Model Hold 'RST'
+Slack : -1.072
+TNS   : -1.072
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_55:C2|COUT'
+Slack : -0.454
+TNS   : -0.899
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_55:C1|COUT'
+Slack : -0.197
+TNS   : -0.205
+
+Type  : Fast 1100mV 85C Model Hold 'Light_Events:inst|CTRL0'
+Slack : 2.279
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'Counter_55:C1|COUT'
+Slack : -4.619
+TNS   : -30.930
+
+Type  : Fast 1100mV 85C Model Recovery 'Counter_55:C2|COUT'
+Slack : -4.551
+TNS   : -30.001
+
+Type  : Fast 1100mV 85C Model Recovery 'CLK'
+Slack : -2.643
+TNS   : -12.796
+
+Type  : Fast 1100mV 85C Model Recovery 'RST'
+Slack : -0.593
+TNS   : -0.593
+
+Type  : Fast 1100mV 85C Model Removal 'CLK'
+Slack : -1.742
+TNS   : -28.353
+
+Type  : Fast 1100mV 85C Model Removal 'RST'
+Slack : -0.434
+TNS   : -0.434
+
+Type  : Fast 1100mV 85C Model Removal 'Counter_55:C1|COUT'
+Slack : -0.087
+TNS   : -0.087
+
+Type  : Fast 1100mV 85C Model Removal 'Counter_55:C2|COUT'
+Slack : 0.488
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.400
+TNS   : -2.677
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'D_CTR'
+Slack : -0.305
+TNS   : -0.737
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'START'
+Slack : -0.246
+TNS   : -7.714
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'RST'
+Slack : -0.069
+TNS   : -0.224
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_55:C1|COUT'
+Slack : -0.015
+TNS   : -0.015
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_55:C2|COUT'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Light_Events:inst|CTRL0'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_55:C1|COUT'
+Slack : -5.045
+TNS   : -41.432
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_55:C2|COUT'
+Slack : -4.912
+TNS   : -40.802
+
+Type  : Fast 1100mV 0C Model Setup 'Light_Events:inst|CTRL0'
+Slack : -3.333
+TNS   : -6.601
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -1.545
+TNS   : -38.446
+
+Type  : Fast 1100mV 0C Model Setup 'START'
+Slack : -1.337
+TNS   : -9.551
+
+Type  : Fast 1100mV 0C Model Setup 'RST'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'START'
+Slack : -2.135
+TNS   : -47.942
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : -1.493
+TNS   : -40.947
+
+Type  : Fast 1100mV 0C Model Hold 'RST'
+Slack : -1.054
+TNS   : -1.054
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_55:C2|COUT'
+Slack : -0.430
+TNS   : -0.863
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_55:C1|COUT'
+Slack : -0.176
+TNS   : -0.215
+
+Type  : Fast 1100mV 0C Model Hold 'Light_Events:inst|CTRL0'
+Slack : 2.238
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'Counter_55:C1|COUT'
+Slack : -4.482
+TNS   : -30.131
+
+Type  : Fast 1100mV 0C Model Recovery 'Counter_55:C2|COUT'
+Slack : -4.420
+TNS   : -29.275
+
+Type  : Fast 1100mV 0C Model Recovery 'CLK'
+Slack : -2.489
+TNS   : -9.816
+
+Type  : Fast 1100mV 0C Model Recovery 'RST'
+Slack : -0.591
+TNS   : -0.591
+
+Type  : Fast 1100mV 0C Model Removal 'CLK'
+Slack : -1.770
+TNS   : -28.894
+
+Type  : Fast 1100mV 0C Model Removal 'RST'
+Slack : -0.403
+TNS   : -0.403
+
+Type  : Fast 1100mV 0C Model Removal 'Counter_55:C1|COUT'
+Slack : -0.050
+TNS   : -0.050
+
+Type  : Fast 1100mV 0C Model Removal 'Counter_55:C2|COUT'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.406
+TNS   : -3.310
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'D_CTR'
+Slack : -0.281
+TNS   : -0.663
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'START'
+Slack : -0.239
+TNS   : -7.905
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'RST'
+Slack : -0.079
+TNS   : -0.250
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_55:C1|COUT'
+Slack : 0.003
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_55:C2|COUT'
+Slack : 0.031
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Light_Events:inst|CTRL0'
+Slack : 0.398
+TNS   : 0.000
+
+------------------------------------------------------------
